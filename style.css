@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #ffffff;
+}
+.navflex{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding-right: 5%;
+    font-family: 'poppins'
+}
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000000;
+    height: 20px;
+}
+.sign{
+    margin-left: 20%;
+    font-family: 'poppins'
+}
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .navflex1{
+    font-family: 'poppins'
+  }
+.rect{
+    width:100%; 
+    background-color: #000000;
+    height: 300px;
+    position: relative;
+}
+.ref{
+    color: #ffffff;
+    font-family: 'poppins';
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.text1{
+    color: #ffffff;
+    font-family: 'poppins';
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.input{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+}
+.button2{
+    position: absolute;
+    height: 40px;
+    border-radius: 5px;
+    top: 150px;
+    left: 410px;
+    width: 15%;
+    background-image: linear-gradient(to right,#F97933, #AB33A2);
+    color: white;
+}
+::placeholder {
+    color: #747474;
+    opacity: 0.7;
+    padding-left: 10%;
+  }
+  .hero{
+    position: absolute;
+    left: 650px;
+    width: 40%;
+    top: -10px;
+  }
+  .logoflex{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .clogo{
+    width: 13%;
+    margin-right: 4.5%;
+  }
+  .leftpng{
+    width: 25%;
+  }
+  .button3{
+    position: absolute;
+    height: 40px;
+    border-radius: 5px;
+    border-color:white;
+    margin-left: 10%;
+    margin-top: 0px;
+    width: 15%;
+    background-image: linear-gradient(to right,#F97933, #AB33A2);
+    color: white;
+    transition-duration: 4s;
+}
+a:hover {
+    color: #AB33A2;
+  }
+.button:hover{
+    color: #ffffff;
+    background-image: linear-gradient(to right,#F97933, #AB33A2);
+}
+.button3:hover{
+    background-image: linear-gradient(to right, #AB33A2,#F97933);
+}
+#icon1{
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #AB33A2,#F97933);
+    color: #ffffff;
+}
