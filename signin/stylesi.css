@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(-90deg, #B0F2B4, #F97933, #AB33A2);
+    background-size: 600% 600%;
+    animation: GradientAnimation 20s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+  
+@keyframes GradientAnimation {
+    0%{background-position: 0% 43%}
+    50%{background-position: 100% 57%}
+    100%{background-position: 0% 43%}
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'poppins';
+    text-shadow: 0px 5px 5px #000000;
+}
+::placeholder{
+    color: #AB33A2;
+    opacity: 0.7;
+    font-family: 'poppins';
+}
+.form{
+    width: 565px;
+    height: auto;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    border: 5px white double ;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.inputf{
+    width: 100%;
+}
+.input-field{
+    width:100%;
+    padding:10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-family: 'FontAwesome', Arial;
+    font-size: normal;
+}
+.inp1{
+    position: relative;
+    width: 500px;
+}
+.inp1 i{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #AB33A2;
+}
+.inp1 input{
+    padding-left: 35px;
+    outline: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button3{
+    height: 40px;
+    border-radius: 5px;
+    border: rgb(255, 255, 255) solid 1.5px;
+    width: auto;
+    background-image: linear-gradient(to right,#F97933, #AB33A2);
+    color: rgb(255, 255, 255);
+    transition-duration: 4s;
+    padding-left:50px;
+    padding-right:50px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button3:hover{
+    background-image: linear-gradient(to right, #AB33A2,#F97933);
+}
